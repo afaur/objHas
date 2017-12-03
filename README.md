@@ -24,9 +24,11 @@ Identical except that `compatibility` will work without new language features.
 - Latest (`./lib/objHas.js`)
   - Uses `const` and `let`
   - Uses `rest` parameters
+  - Uses `arrow` functions
 - Compatiblity (`./lib/.objHas.js`)
   - Uses `var`
   - Uses `Array.prototype.slice` on arguments
+  - Uses `function`
 
 # Run Tests (latest version)
 ```$ make```
