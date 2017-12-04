@@ -8,7 +8,7 @@ Why make this when many other solutions are out there?
 
 # What makes this different?
 I do not believe this is by any means the best solution but...
-- All code is documented
+- All code is [documented](https://afaur.github.io/objHas/)
 - Has tests to ensure it handles your expected behavior (Look at `./bin/test`)
   - If a property exists but has a value of...
     - undefined - method will return `false`.
